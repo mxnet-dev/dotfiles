@@ -41,8 +41,8 @@ else
 
    # Clone plugins
    echo -e "Cloning plugins..."
-   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $PATH_TO_plugins/zsh-syntax-highlighting
-   git clone https://github.com/zsh-users/zsh-autosuggestions.git $PATH_TO_plugins/zsh-autosuggestions
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $PATH_TO_ZSH_DIR/plugins/zsh-syntax-highlighting
+   git clone https://github.com/zsh-users/zsh-autosuggestions.git $PATH_TO_ZSH_DIR/plugins/zsh-autosuggestions
    echo -e "Plugins cloned!"
 fi
 
